@@ -152,6 +152,9 @@ axis equal; grid on
 
 save sofaGerv.mat sofaGerv
 
+sofaGerv2=polyshape([xNs,-xNs],[yNs,yNs]);
+save sofaGerv2.mat sofaGerv2
+
 % --- Visualisation
 
 xpg=-2*sqrt(2);
