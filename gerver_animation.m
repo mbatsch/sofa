@@ -51,7 +51,7 @@ else
 end
 
 F(i) = getframe;
-frame = getframe(rys);
+frame = getframe(dr);
 im = frame2im(frame); 
 [imind,cm] = rgb2ind(im,256); 
 if i == 1 
